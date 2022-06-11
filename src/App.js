@@ -1,24 +1,39 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from "./components/Home"
+
+import RestaurantSearch from "./components/RestaurantSearch"
+import RestaurantCreate from "./components/RestaurantCreate"
+import RestaurantList from "./components/RestaurantList"
+import RestaurantUpdate from "./components/RestaurantUpdate"
+import Login from "./components/Login"
+import Logout from "./components/Logout"
+import Protected from "./components/Protected"
+import SignUp from "./components/SignUp"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <Routes>
+          <Route path="/list" element={<Protected Component={RestaurantList} />} />
+          <Route path="/create" element={<Protected Component={RestaurantCreate} />} />
+          <Route path="/search" element={<Protected Component={RestaurantSearch} />} />
+          <Route path="/update/:id" element={<Protected Component={RestaurantUpdate} />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/logout" element={<Logout />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/" element={<Protected Component={Home} />} />
+
+        </Routes>
+      </Router>
+    </div >
   );
 }
 

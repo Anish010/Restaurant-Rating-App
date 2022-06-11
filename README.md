@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# RESTAURANT RATING APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [Overview](#overview)
+  - [Description](#description)
+  - [Objectives](#objectives)
+  - [Screenshot](#screenshot)
+  - [Link](#Link)
+  - [Technical Skills](#technical-skills)
+  - [Frameworks/Platforms/Libraries](#frameworks/platforms/libraries)
+  - [Tools](#tools)
+  - [Cloud](#cloud)
+  - [Browsers](#browsers)
+  - [IDEs/Editors](#ides/editors)
+  - [Acknoledgement](#Acknowledgement)
+- [Author](#author)
+  - [Connect With Me](#connect-with-me)
+  - [Github Stats](#github-stats)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+### Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The app provide the details of the restaurant such as its address and email and their ratings. A user can login or register its account. A new restaurant's details can be added and existing restaurant's details can be updated. User can see the list of all restaurant's details. The project includes Routing, Fake API , API calls, listing of all restaurant's details, search restaurants, delete restaurants, style and design.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Objectives
 
-### `npm test`
+- Make a react project struncture
+- Routing and Protected Routing
+- Login and Registration
+- API calls​
+- Listing of restaurant's details
+- Add new restaurants
+- Update restaurant's details
+- Delete restaurants
+- Search restaurant's Details
+- Style and design
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshot
 
-### `npm run build`
+![Dekstop Design preview for Home Page](./Screenshots/Home.png) Home Page
+</br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Dekstop Design preview for Create Page](./Screenshots/Add.png) Create Page
+</br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Dekstop Design preview for Listing Page](./Screenshots/List.png)Listing Page
+</br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Dekstop Design preview for Login Page](./Screenshots/Login.png)Login Page
+</br>
 
-### `npm run eject`
+![Dekstop Design preview for Search Page](./Screenshots/Search.png)Search Page
+</br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Dekstop Design preview for SignUp Page](./Screenshots/SignUp.png) SignUp Page
+</br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Technical Skills
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+</br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Frameworks/Platforms/Libraries
 
-## Learn More
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+</br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Operating System
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+</br>
 
-### Code Splitting
+### Tools
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=weather-app-sigma-pied&style=for-the-badge)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+</br>
 
-### Analyzing the Bundle Size
+### Browsers
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
+![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)
+</br>
 
-### Making a Progressive Web App
+### IDEs/Editors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+</br>
 
-### Advanced Configuration
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Connect With Me
 
-### Deployment
+<a href="https://www.linkedin.com/in/anish-kumar-mohanty-68a019216/"><img align="left" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Anish | LinkedIn"/></a>
+<a href="https://www.instagram.com/in/anish.mohanty_/"><img align="left" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Anish | Instagram"/></a>
+<a href="https://leetcode.com/anish101/"><img align="left" src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fanish101&logo=leetcode&logoColor=yellow" alt="Anish | Leetcode"/></a>
+<a href="https://www.hackerrank.com/anishmohanty101"><img align="left" src="https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white" alt="Anish | Leetcode"/></a>
+</br>
+</br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### GitHub Stats
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anish010)](https://github.com/anish101)

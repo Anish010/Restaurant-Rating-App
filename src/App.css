@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100, 300, 400, 500, 600, 700, 800, 900&display=swap');
+
 .App {
   text-align: center;
 }
@@ -7,10 +9,45 @@
   pointer-events: none;
 }
 
+span {
+  display: inline-block;
+
+  padding: 10px;
+  margin: 5px;
+}
+
+  	.list-wrapper {
+  	  border: 1px solid #ccc;
+  	  margin: auto;
+  	  width: 500px;
+  	  margin-top: 10px;
+  	}
+.input-update, .input-create,.input-login{
+  width : 350px;
+  height : 40px;
+}
+.span-delete{
+  cursor:pointer;
+}
+.update-button,.button-create,.button-login, .button-signup{
+  width : 180px;
+  height : 45px;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.me-auto-link{
+  font-size: 26px;
+  margin-left: 40px;
+}
+
+Button{
+  width : 100px;
 }
 
 .App-header {
@@ -35,4 +72,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.about-section, .section-intro{
+  color: white;
+}
+
+.nav-flex-row li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+  font-family: 'Big Shoulders Text', cursive;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+
+
+.main {
+  height: 820px;
+  background-image: url(Images/rt.jpg);
+  background-size: cover;
+
+}
+
+.section-intro ,.about-section{
+  width: 700px;
+  margin : auto;
 }

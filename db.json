@@ -1,0 +1,73 @@
+{
+  "login": [
+    {
+      "id": 1,
+      "name": "anish",
+      "password": "abc@123",
+      "email": "anish101@gmail.com"
+    },
+    {
+      "name": "rahul",
+      "password": "rahul",
+      "email": "rahul@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "ankita",
+      "password": "ankita",
+      "email": "ankita",
+      "id": 3
+    },
+    {
+      "name": "abc",
+      "email": "abc",
+      "password": "abc",
+      "id": 4
+    }
+  ],
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "Dominos",
+      "address": "Noida",
+      "rating": "4.5",
+      "email": "dominos@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Mainland China",
+      "address": "Kolkata",
+      "rating": "4.0",
+      "email": "mainlandChina@gmail.com"
+    },
+    {
+      "name": "Haldiram",
+      "email": "Haldiram@gmail.com",
+      "address": "Noida, Delhi",
+      "rating": "4.2",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Sizzler Hot",
+      "address": "Lucknow",
+      "rating": "4.4",
+      "email": "SizzlerHot@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "BBQ Club",
+      "address": "Prayagraj",
+      "rating": "4.6",
+      "email": "BBQClub@gmail.com"
+    },
+    {
+      "name": "Pink Bakery",
+      "email": "pinkBakery@gmail.com",
+      "address": "Bhubaneshwar",
+      "rating": "4.2",
+      "id": 6
+    }
+  ]
+}
+
