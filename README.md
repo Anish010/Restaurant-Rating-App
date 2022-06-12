@@ -22,7 +22,7 @@
 
 ### Description
 
-The app provide the details of the restaurant such as its address and email and their ratings. A user can login or register its account. A new restaurant's details can be added and existing restaurant's details can be updated. User can see the list of all restaurant's details. The project includes Routing, Fake API , API calls, listing of all restaurant's details, search restaurants, delete restaurants, style and design.
+The app provide the details of the restaurant such as its address and email and their ratings. A user can login or register its account. A new restaurant's details can be added and existing restaurant's details can be updated. User can see the list of all restaurant's details. The project includes Routing, Local API , API calls, listing of all restaurant's details, search restaurants, delete restaurants, style and design.
 
 ### Objectives
 
