@@ -60,7 +60,7 @@ The app provide the details of the restaurant such as its address and email and 
 ### How to Run
 
 - Note : Make sure you are in the project folder
-- STEP 1 : npm run server
+- STEP 1 : npx json-server --watch db.json
 - STEP 2 : npm start
 
 ### Technical Skills
